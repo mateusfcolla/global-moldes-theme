@@ -39,6 +39,16 @@
       return $paths;
   }
 
+function register_theme_menus() {
+    register_nav_menus(
+        array(
+            'header_menu' => __( 'Header Menu' ),
+            // Add more menus here if needed
+        )
+    );
+}
+add_action( 'init', 'register_theme_menus' );
+
 
 class AreYouPayingAttention {
     function __construct() {

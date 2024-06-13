@@ -656,7 +656,7 @@ h4,
 h5,
 h6 {
   color: #182135;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: SegoeUI, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 1.35;
@@ -890,10 +890,12 @@ h6 {
     aspect-ratio: 6/9;
   }
 }
-.wk-header {
-  background-color: #1f2a44;
-  color: #fff;
-  font-family: "Helvetica", arial, serif;
+.wk-header{
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 236 236 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(55 104 129 / var(--tw-text-opacity));
+  font-family: "SegoeUI", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   position: sticky;
@@ -922,7 +924,6 @@ h6 {
   display: flex;
   flex-direction: row;
   gap: 3rem;
-  text-transform: uppercase;
 }
 .wk-header .wk-header__nav-item {
   border-bottom: 3px solid transparent;
@@ -1087,7 +1088,7 @@ h6 {
   width: 55%;
 }
 .wk-produtos__item a h3 {
-  font-family: Helvetica, sans-serif;
+  font-family: SegoeUI, sans-serif;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -1136,7 +1137,7 @@ h6 {
 .wk-categories__item {
   color: #b0b7c4;
   cursor: pointer;
-  font-family: "Helvetica", sans-serif;
+  font-family: "SegoeUI", sans-serif;
   font-size: 2.2rem;
   font-weight: bold;
   padding: 2rem;
@@ -1158,7 +1159,7 @@ h6 {
 .wk-footer {
   background-color: #1f2a44;
   color: #a8aab1;
-  font-family: "Helvetica", arial, serif;
+  font-family: "SegoeUI", arial, serif;
   margin-top: 6rem;
   padding: 9rem 0;
   position: relative;
@@ -1228,7 +1229,7 @@ h6 {
 }
 .wkode-contact-block {
   color: rgb(50, 50, 50);
-  font-family: "Helvetica", sans-serif;
+  font-family: "SegoeUI", sans-serif;
 }
 .wkode-contact-block__wrapper{
   width: 100%;
@@ -1280,7 +1281,7 @@ h6 {
   }
 }
 .wkode-contact-block__title {
-  font-family: "Helvetica", sans-serif;
+  font-family: "SegoeUI", sans-serif;
   font-size: 2.6rem;
   font-style: normal;
   font-weight: 600;
@@ -1313,7 +1314,7 @@ h6 {
   border: 1px solid rgb(50, 50, 50) 0 !important;
   border-radius: 1px !important;
   color: rgb(50, 50, 50) !important;
-  font-family: "Helvetica" !important;
+  font-family: "SegoeUI" !important;
   font-size: 1.4rem !important;
   font-weight: 300 !important;
   margin-bottom: 1rem;
@@ -1322,7 +1323,7 @@ h6 {
 }
 .wkode-contact-block__form .wpforms-container form .wpforms-field-container input::-moz-placeholder, .wkode-contact-block__form .wpforms-container form .wpforms-field-container textarea::-moz-placeholder {
   color: rgb(50, 50, 50) !important;
-  font-family: "Helvetica" !important;
+  font-family: "SegoeUI" !important;
   font-size: 1.4rem !important;
   font-weight: 300 !important;
   min-width: 100% !important;
@@ -1331,7 +1332,7 @@ h6 {
 .wkode-contact-block__form .wpforms-container form .wpforms-field-container input::placeholder,
 .wkode-contact-block__form .wpforms-container form .wpforms-field-container textarea::placeholder {
   color: rgb(50, 50, 50) !important;
-  font-family: "Helvetica" !important;
+  font-family: "SegoeUI" !important;
   font-size: 1.4rem !important;
   font-weight: 300 !important;
   min-width: 100% !important;

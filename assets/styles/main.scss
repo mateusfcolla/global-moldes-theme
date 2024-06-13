@@ -14,12 +14,12 @@
 
 .wkode-contact-block {
   color: rgb(50, 50, 50);
-  font-family: "Helvetica", sans-serif;
+  font-family: "SegoeUI", sans-serif;
   &__wrapper {
     @apply grid grid-cols-1 md:grid-cols-2 container;
   }
   &__title {
-    font-family: "Helvetica", sans-serif;
+    font-family: "SegoeUI", sans-serif;
     font-size: 2.6rem;
     font-style: normal;
     font-weight: 600;
@@ -53,7 +53,7 @@
         border: 1px solid rgb(50, 50, 50) 000 !important;
         border-radius: 1px !important;
         color: rgb(50, 50, 50) !important;
-        font-family: "Helvetica" !important;
+        font-family: "SegoeUI" !important;
         font-size: 1.4rem !important;
         font-weight: 300 !important;
         margin-bottom: 1rem;
@@ -61,7 +61,7 @@
         text-transform: capitalize !important;
         &::placeholder {
           color: rgb(50, 50, 50) !important;
-          font-family: "Helvetica" !important;
+          font-family: "SegoeUI" !important;
           font-size: 1.4rem !important;
           font-weight: 300 !important;
           min-width: 100% !important;

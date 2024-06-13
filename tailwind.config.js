@@ -30,6 +30,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        segoeui: ["Segoe UI", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         "josefin-sans": ["Josefin Sans", "sans-serif"],
         montserrat: ["montserrat", "sans-serif"],
