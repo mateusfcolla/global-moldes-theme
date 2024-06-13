@@ -13,16 +13,18 @@ module.exports = {
       colors: {
         wk: {
           primary: {
-            white: "#D6D6D6",
+            white: "#ebecec", //- GlobalMoldes
+            black: "#2c2e35", //- GlobalMoldes
+            darkblue: "#0b4a78", //- GlobalMoldes
+            blue: "#376881", //- GlobalMoldes
             red: "#D72818",
-            lightblue: "#3a9fe9",
+            lightblue: "#53ced5", //- GlobalMoldes
             yellow: "#f3db1e",
-            blue: "#14151B",
             gray: "#E7E7E7",
             lightgray: "#616161",
           },
           secondary: {
-            blue: "#266a9c",
+            blue: "#53ced5", //- GlobalMoldes
             yellow: "#F1B806",
           },
         },
