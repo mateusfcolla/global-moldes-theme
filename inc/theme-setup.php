@@ -229,6 +229,17 @@ if ( function_exists( 'acf_register_block_type' ) ) {
 					'keywords'        => array( 'banner', 'imagem', 'home', 'hero', 'texto' ),
 				)
 			);
+			acf_register_block_type(
+				array(
+					'name'            => 'gm-visao',
+					'title'           => __( 'Bloco Visao' ),
+					'description'     => __( 'Bloco de visao Global Moldes' ),
+					'render_template' => 'template-parts/blocks/page/gm-visao.php',
+					'category'        => 'wkode',
+					'icon'            => 'video-alt3',
+					'keywords'        => array( 'banner', 'imagem', 'home', 'texto' ),
+				)
+				);
 		}
 	);
 }
