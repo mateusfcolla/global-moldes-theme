@@ -1,0 +1,83 @@
+.wk-footer {
+  background-color: #1f2a44;
+  color: #a8aab1;
+  font-family: "Helvetica", arial, serif;
+  margin-top: 6rem;
+  padding: 9rem 0;
+  position: relative;
+  &__title {
+    color: inherit;
+    font-size: 3rem;
+    margin-bottom: 2.1rem;
+    padding: 0;
+  }
+  &__column {
+    font-size: 1.5rem;
+    li:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .wk-header__nav-item {
+    transition: all 0.3s;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &__icons {
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 2.1rem;
+    svg {
+      fill: #a8aab1;
+      height: 2.5rem;
+      margin-right: 1rem;
+      width: 2.5rem;
+      path {
+        fill: #a8aab1;
+      }
+    }
+  }
+  &__ruler {
+    border-color: #a8aab1;
+  }
+  &__copy {
+    background-color: #182135;
+    bottom: 0;
+    font-size: 1.8rem;
+    padding: 2.1rem 0;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .wkode-logo {
+    padding: 1.5rem 0;
+    position: absolute;
+    right: 3rem;
+    top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-footer {
+    padding-bottom: 15rem;
+    .wk-header__nav-item {
+    }
+    &__title {
+    }
+    &__column {
+    }
+    &__icons {
+      svg {
+      }
+    }
+    &__copy {
+    }
+    .wkode-logo {
+      position: relative;
+      right: auto;
+      svg {
+        margin: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.wk-banner-grid {
+  margin-top: 7rem;
+  &__single {
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}

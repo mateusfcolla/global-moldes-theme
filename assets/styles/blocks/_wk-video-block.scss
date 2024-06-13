@@ -1,0 +1,16 @@
+.wk-video-block {
+  margin-top: 1.5rem;
+  min-height: 60rem;
+  iframe {
+    aspect-ratio: 16/9;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .wk-video-block {
+    iframe {
+      aspect-ratio: 6/9;
+    }
+  }
+}
