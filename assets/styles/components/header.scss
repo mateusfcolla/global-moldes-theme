@@ -9,7 +9,7 @@
   z-index: 9999;
 
   &__logo-wrapper a img{
-    max-height: 13rem;
+    max-height: 12rem;
   }
   &-wrapper {
     @apply flex items-center justify-between;
@@ -78,7 +78,7 @@
     }
     // & .menu-item {
     //   @apply text-wk-primary-white transition;
-  
+
     //   &:hover {
     //     @apply text-white;
     //   }
