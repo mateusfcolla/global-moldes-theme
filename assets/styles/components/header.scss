@@ -1,6 +1,6 @@
 .wk-header {
 
-  @apply bg-wk-primary-white text-wk-primary-blue;
+  @apply bg-wk-primary-white text-wk-primary-blue py-8;
   font-family: "SegoeUI", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
@@ -8,21 +8,16 @@
   top: 0;
   z-index: 9999;
 
+  &__logo-wrapper a img{
+    max-height: 13rem;
+  }
   &-wrapper {
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+    @apply flex items-center justify-between;
     gap: 6rem;
     padding: 0 7rem;
   }
   & &__menu {
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    gap: 3rem;
   }
   & &__nav-list {
     align-content: center;
@@ -31,12 +26,11 @@
     flex-direction: row;
     gap: 3rem;
   }
-  & &__nav-item {
-    border-bottom: 3px solid transparent;
-    padding: 3rem 0;
-    transition: all 0.3s;
+  & .menu-item {
+    @apply text-wk-primary-blue transition;
+
     &:hover {
-      border-bottom: 3px solid #fff;
+      @apply text-wk-primary-darkblue;
     }
   }
   & &__button {
@@ -73,6 +67,7 @@
 @media (max-width: 1000px) {
   .wk-header {
     padding: 3rem 0;
+
     &-wrapper {
     }
     & &__menu {
@@ -81,22 +76,26 @@
     & &__nav-list {
       flex-direction: column;
     }
-    & &__nav-item {
-      &:hover {
-      }
-    }
+    // & .menu-item {
+    //   @apply text-wk-primary-white transition;
+  
+    //   &:hover {
+    //     @apply text-white;
+    //   }
+    // }
     &__nav {
-      background-color: #1f2a44;
+      @apply bg-wk-primary-white;
       border-radius: 0 0 1rem 1rem;
       left: 50%;
       max-height: 0;
       overflow: hidden;
       padding: 0 2rem;
       position: absolute;
-      top: 8rem;
+      top: 100%;
       transform: translateX(-50%);
       transition: all 0.3s;
       width: 100%;
+
       &.active {
         max-height: 100vh;
         padding: 2rem;

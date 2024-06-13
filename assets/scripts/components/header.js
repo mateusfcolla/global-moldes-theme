@@ -4,5 +4,6 @@ $(document).ready(function () {
   $(".wk-header__button").click(function () {
     $(this).toggleClass("active");
     $(".wk-header__nav").toggleClass("active");
+    $(".wk-header").toggleClass("active");
   });
 });
