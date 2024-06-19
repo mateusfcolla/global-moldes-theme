@@ -239,7 +239,29 @@ if ( function_exists( 'acf_register_block_type' ) ) {
 					'icon'            => 'video-alt3',
 					'keywords'        => array( 'banner', 'imagem', 'home', 'texto' ),
 				)
-				);
+			);
+			acf_register_block_type(
+				array(
+					'name'            => 'gm-sobre',
+					'title'           => __( 'Bloco Sobre' ),
+					'description'     => __( 'Bloco Sobre Global Moldes' ),
+					'render_template' => 'template-parts/blocks/page/gm-sobre.php',
+					'category'        => 'wkode',
+					'icon'            => 'dashicons-editor-justify',
+					'keywords'        => array( 'banner', 'imagem', 'home', 'texto' ),
+				)
+			);
+			acf_register_block_type(
+				array(
+					'name'            => 'gm-contato',
+					'title'           => __( 'Bloco Contato' ),
+					'description'     => __( 'Bloco Contato Global Moldes' ),
+					'render_template' => 'template-parts/blocks/page/gm-contato.php',
+					'category'        => 'wkode',
+					'icon'            => 'dashicons-email',
+					'keywords'        => array( 'banner', 'imagem', 'home', 'texto' ),
+				)
+			);
 		}
 	);
 }

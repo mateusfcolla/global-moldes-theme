@@ -12,6 +12,33 @@
 @use "components/content";
 @use "components/footer";
 
+.gm-input {
+  label {
+    font-weight: 500!important;
+  }
+  input {
+    width: 100%!important;
+    min-width: 100%!important;
+  }
+}
+
+.gm-enviar {
+  font-size: 2rem!important;
+  background-color: #376881!important;
+  color: white!important;
+  width: 100%!important;
+  min-width: 100%!important;
+  font-weight: bold!important;
+  border-color: #376881!important;
+  border-radius: 1rem!important;
+  transition: .2s!important;
+
+  &:hover {
+    background-color: #53ced5!important;
+    border-color: #53ced5!important;
+  }
+}
+
 .wkode-contact-block {
   color: rgb(50, 50, 50);
   font-family: "SegoeUI", sans-serif;

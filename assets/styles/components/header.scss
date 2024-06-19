@@ -1,6 +1,6 @@
 .wk-header {
 
-  @apply bg-wk-primary-white text-wk-primary-blue py-8;
+  @apply bg-wk-primary-white text-wk-primary-blue py-12;
   font-family: "SegoeUI", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
@@ -9,7 +9,7 @@
   z-index: 9999;
 
   &__logo-wrapper a img{
-    max-height: 12rem;
+    max-height: 8rem;
   }
   &-wrapper {
     @apply flex items-center justify-between;

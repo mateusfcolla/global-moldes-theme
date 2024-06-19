@@ -14,7 +14,7 @@
     <div class="wk-header-wrapper">
       <div class="wk-header__logo-wrapper">
         <a href="<?php echo home_url(); ?>" class="wk-header__logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/logo.svg" alt="logo">
         </a>
       </div>
       <div class="wk-header__menu">

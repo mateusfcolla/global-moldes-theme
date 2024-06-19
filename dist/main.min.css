@@ -494,6 +494,9 @@ video {
 .static{
   position: static;
 }
+.relative{
+  position: relative;
+}
 .m-auto{
   margin: auto;
 }
@@ -503,6 +506,12 @@ video {
 }
 .mb-28{
   margin-bottom: 7rem;
+}
+.mb-4{
+  margin-bottom: 1rem;
+}
+.mb-8{
+  margin-bottom: 2rem;
 }
 .mt-12{
   margin-top: 3rem;
@@ -519,8 +528,17 @@ video {
 .h-auto{
   height: auto;
 }
+.h-full{
+  height: 100%;
+}
+.w-auto{
+  width: auto;
+}
 .w-full{
   width: 100%;
+}
+.grow{
+  flex-grow: 1;
 }
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -537,11 +555,17 @@ video {
 .items-center{
   align-items: center;
 }
+.items-stretch{
+  align-items: stretch;
+}
 .justify-center{
   justify-content: center;
 }
 .gap-10{
   gap: 2.5rem;
+}
+.gap-12{
+  gap: 3rem;
 }
 .gap-16{
   gap: 4rem;
@@ -549,17 +573,14 @@ video {
 .gap-4{
   gap: 1rem;
 }
+.gap-40{
+  gap: 10rem;
+}
 .gap-6{
   gap: 1.5rem;
 }
 .gap-7{
   gap: 1.75rem;
-}
-.gap-12{
-  gap: 3rem;
-}
-.gap-24{
-  gap: 6rem;
 }
 .gap-8{
   gap: 2rem;
@@ -567,6 +588,12 @@ video {
 .bg-wk-primary-darkblue{
   --tw-bg-opacity: 1;
   background-color: rgb(11 74 120 / var(--tw-bg-opacity));
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-bottom{
+  background-position: bottom;
 }
 .p-9{
   padding: 2.25rem;
@@ -579,29 +606,24 @@ video {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.py-60{
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
-.px-24{
-  padding-left: 6rem;
-  padding-right: 6rem;
+.py-60{
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
-.px-40{
-  padding-left: 10rem;
-  padding-right: 10rem;
+.pt-28{
+  padding-top: 7rem;
 }
 .text-left{
   text-align: left;
@@ -616,31 +638,25 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
 }
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 .font-extrabold{
   font-weight: 800;
 }
+.font-thin{
+  font-weight: 100;
+}
 .uppercase{
   text-transform: uppercase;
+}
+.leading-10{
+  line-height: 2.5rem;
 }
 .text-\[\#fcc817\]{
   --tw-text-opacity: 1;
@@ -649,6 +665,14 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-wk-primary-blue{
+  --tw-text-opacity: 1;
+  color: rgb(55 104 129 / var(--tw-text-opacity));
+}
+.text-wk-primary-darkblue{
+  --tw-text-opacity: 1;
+  color: rgb(11 74 120 / var(--tw-text-opacity));
 }
 .text-wk-primary-white{
   --tw-text-opacity: 1;
@@ -974,8 +998,8 @@ h6 {
 .wk-header{
   --tw-bg-opacity: 1;
   background-color: rgb(235 236 236 / var(--tw-bg-opacity));
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   --tw-text-opacity: 1;
   color: rgb(55 104 129 / var(--tw-text-opacity));
   font-family: "SegoeUI", sans-serif;
@@ -986,7 +1010,7 @@ h6 {
   z-index: 9999;
 }
 .wk-header__logo-wrapper a img {
-  max-height: 12rem;
+  max-height: 8rem;
 }
 .wk-header-wrapper{
   display: flex;
@@ -1313,6 +1337,30 @@ h6 {
     margin: auto;
   }
 }
+.gm-input label {
+  font-weight: 500 !important;
+}
+.gm-input input {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.gm-enviar {
+  font-size: 2rem !important;
+  background-color: #376881 !important;
+  color: white !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  font-weight: bold !important;
+  border-color: #376881 !important;
+  border-radius: 1rem !important;
+  transition: 0.2s !important;
+}
+.gm-enviar:hover {
+  background-color: #53ced5 !important;
+  border-color: #53ced5 !important;
+}
+
 .wkode-contact-block {
   color: rgb(50, 50, 50);
   font-family: "SegoeUI", sans-serif;
@@ -1496,6 +1544,10 @@ h6 {
   .md\:w-1\/3{
     width: 33.333333%;
   }
+  .md\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
+  }
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1505,10 +1557,16 @@ h6 {
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .md\:flex-row{
+    flex-direction: row;
+  }
   .md\:pl-24{
     padding-left: 6rem;
   }
   .md\:pr-24{
     padding-right: 6rem;
+  }
+  .md\:text-left{
+    text-align: left;
   }
 }
